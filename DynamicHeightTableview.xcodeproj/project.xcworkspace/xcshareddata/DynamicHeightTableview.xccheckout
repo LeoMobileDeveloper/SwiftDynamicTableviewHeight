@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71BC87D7-34E3-4DAB-BA19-3A6CB760D432</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DynamicHeightTableview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A5CBC68B6029B5E16796362A40392EF6BEE5FDF</key>
+		<string>https://github.com/wenchenhuang/SwiftDynamicTableviewHeight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DynamicHeightTableview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A5CBC68B6029B5E16796362A40392EF6BEE5FDF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wenchenhuang/SwiftDynamicTableviewHeight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A5CBC68B6029B5E16796362A40392EF6BEE5FDF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A5CBC68B6029B5E16796362A40392EF6BEE5FDF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftDynamicTableviewHeight</string>
+		</dict>
+	</array>
+</dict>
+</plist>

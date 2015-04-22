@@ -34,7 +34,6 @@ class DynamicTableviewController:UITableViewController{
         var detail = subtitleArray[indexPath.row] as NSString
         var detailSize = getDetailSize(detail)
         var height = detailSize.height + titleSize.height + 30
-        println(height)
         return height
     }
     
@@ -54,9 +53,9 @@ class DynamicTableviewController:UITableViewController{
     }
     func getDetailSize(cellDetail:NSString)->CGSize{
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as? UITableViewCell
-        var font = UIFont.systemFontOfSize(14);
+        var font = cell?.detailTextLabel?.font;
         var attribute = NSMutableDictionary()
-        attribute.setObject(font, forKey: NSFontAttributeName)
+        attribute.setObject(font!, forKey: NSFontAttributeName)
         var rect = cellDetail.boundingRectWithSize(CGSizeMake(tableView.bounds.size.width,CGFloat.max), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: attribute as [NSObject : AnyObject], context:nil)
         return rect.size
     }
